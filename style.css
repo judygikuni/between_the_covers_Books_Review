@@ -7,39 +7,41 @@ body{
     background-color: rgb(224, 213, 200);
 }
 .book_review{
-    background-image: url(images/library\ books_image.jpg);
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+     url(images/library\ books_image.jpg);
     height: 99vh;
     width: 99vw;
-    margin-top: -1vh;
+    margin-top:vh;
     /* position: fixed; */
 
     
 
 }
-#dot{
-    position: absolute;
-    overflow: hidden;
-    margin-left: -1;
-    margin-top: -41.5%;
-    background: rgb(0, 0, 0.5);
-    background: rgba(0, 0, 0, 0.5);
-    width: 99vw;
-    height:1650px;
-    text-align: center;
-}
 
+.navigation_upwards{
+    border: solid 2px;
+    border: none;
+    border-radius: 0vw;
+    height: 8vh;
+    width: 99vw;
+    
+    background-color: rgb(102, 20, 20);
+   /* position: fixed; */
+}
 .navigation_bar, ul{
     display: flex;
     gap: 5vw;
-    margin-top: 3vh;
+    margin-top: 1vh;
     margin-left: 25vw;
     color: white;
     font-size: 120%;
     position: absolute;
     list-style: none;
+   
 }
 #books_button{
-    width: 7vw;
+    width: 10vw;
     height: 5vh;
     background: none;
     border: none;
@@ -56,8 +58,8 @@ body{
     
 }
 #small_heading{
-    margin-left: -15vw;
-    margin-top: -2vh;
+    margin-left: -23vw;
+    margin-top: 1vh;
     color: rgb(231, 223, 223);
 }
 .book_introtext {
@@ -79,10 +81,14 @@ body{
     font-size: 110%;
     margin-left: 35vw;
 }
-.reflection_heading{
+#reflection_heading{
     margin-top: 12vh;
     margin-left: 40vw;
     font-size: 150%;
+    
+}
+#reflection_heading a{
+    color: white;
 }
 .book_reflection{
     border: solid 3px;
@@ -103,7 +109,7 @@ body{
     margin-top: 2vh;
     margin-left: 10vw;
 }
-.sugested_title{
+#sugested_title{
     margin-top: 9vh;
     margin-left: 7vw;
     
@@ -121,7 +127,7 @@ body{
     height: 25vh;
     margin-left: 6vw;
 }
-.reflective_blog{
+#reflective_blog{
     margin-top: 5vh;
     text-align: center;
     font-size: 120%;
@@ -129,16 +135,25 @@ body{
 .subvient_heading{
     margin-left: 2vw;
     margin-top: 1vw;
+    color: rgb(6, 6, 129);
 }
 .quote_paragrapgh{
     margin-top: 5vh;
     margin-left: 12vh;
     font-size: 100%;
 }
-.author_trevor{
+#author_trevor{
     text-align: center;
     margin-top: 20vh;
     font-size: 150%;
+}
+#nav_bar{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+#nav_bar:hover{
+    color: blue;
 }
 .author_text{
     display: flex;
@@ -183,4 +198,936 @@ body{
 }
 #youtube_icon:hover{
     color: rgb(7, 6, 6);
+}
+.selling_book{
+    
+}
+.selling_book img{
+    height: 60vh;
+    margin-left: 9vw;
+}
+.advertise_book{
+    display: flex;
+    margin-top: 20vh;
+}
+.start_icons,i{
+    color: orange;
+    text-align: center;
+    margin-top: 3vh;
+}
+#amazon_icon{
+    color: rgb(7, 7, 105);
+}
+#amazon_icon:hover{
+    color: orangered;
+}
+.advertise_paragraph{
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+#advrt_words{
+    text-align: center;
+    font-size: 120%;
+}
+
+.group_books{
+    display: flex;
+    margin-top: 5vh;
+}
+.maaza_book img{
+    height: 60vh;
+    margin-left: 15vw;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    
+}
+.maaza_book img:hover{
+    transform: scale(1.1);
+}
+.crime_book img{
+    height: 60vh;
+    margin-left: 19vw;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+}
+.crime_book img{
+    transform: scale(1.1);
+}
+.crime_book img:hover{
+    transform: scale(1,1);
+}
+
+#group_heading{
+    text-align: center;
+    font-size: 130%;
+    margin-top: 15vh;
+}
+#maaza_book{
+    margin-left: 35vh;
+    text-decoration: none;
+    
+}
+#born_book{
+    margin-left: 55vh;
+    margin-top: 5vh;
+    
+}
+
+.right_reserved{
+    text-align: center;
+}
+.line{
+    margin-top: 2vh;
+    width: 90vh;
+   
+}
+#name{
+    margin-top: 1vh;
+}
+
+
+@media only screen and (max-width:750px) {
+    .book_review{
+        background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+         url(images/library\ books_image.jpg);
+        height: 99vh;
+        width: 99vw;
+        margin-top:vh;
+        /* position: fixed; */
+    
+        
+    
+    }
+    
+    .navigation_upwards{
+        border: solid 2px;
+        border: none;
+        border-radius: 3vw;
+        height: 6vh;
+        width: 98vw;
+        background-image: linear-gradient(rgba(52, 53, 70, 0.8), rgba(0, 0, 0, 0.8));
+       
+    }
+
+
+.navigation_bar, ul{
+    display: flex;
+    /* flex-direction: column; */
+    line-height: 6vh;
+    gap: 3.5vw;
+    margin-top: 0vh;
+    margin-left: -4vw;
+    color: white;
+    font-size: 100%;
+    position: absolute;
+    list-style: none;
+   
+}
+#books_button{
+    width: 25vw;
+    height: 7vh;
+    background: none;
+    /* margin-left: 1vh; */
+    border: none;
+    color: white;
+    background-color:blue ;
+    font-size: 120%;
+    border-radius: 2vh;
+
+}
+
+#books_button:hover{
+    background-color: white;
+    color: black;
+    
+}
+#small_heading{
+    margin-left: 5vw;
+    margin-top: 5vh;
+    color: rgb(231, 223, 223);
+}
+.book_introtext {
+  position: absolute;
+  margin-top: -50vh;
+  text-align: center;
+  margin-left: 25vw;
+  font-size: 130%;
+  color: white;
+}
+.logo_text{
+    display: flex;
+}
+.logo_text img{
+    height: 2vh;
+}
+.book_quote{
+    margin-top: 6vh;
+    font-size: 110%;
+    margin-left: 3vw;
+}
+#reflection_heading{
+    margin-top: 12vh;
+    margin-left: 15vw;
+    font-size: 140%;
+    
+}
+#reflection_heading a{
+    color: white;
+}
+.book_reflection{
+    border: solid 3px;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    overflow: scroll;
+    background-color: white;
+    border: none;
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    
+}
+.new_title{
+    display: flex;
+    flex-direction: column;
+}
+.new_title_image img{
+    height: 35vh;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+#sugested_title{
+    margin-top: 9vh;
+    margin-left: 7vw;
+    
+}
+.title_paragraph{
+    margin-top: 5vh;
+    margin-left: 1vh;
+    font-size: 90%;
+}
+.subvient_view{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.traditional_marriageimage img{
+    height: 25vh;
+    margin-left: 5vw;
+}
+.reflective_blog{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 110%;
+}
+.subvient_heading{
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.quote_paragrapgh{
+    margin-top: 5vh;
+    margin-left: 1vh;
+    font-size: 100%;
+}
+#author_trevor{
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 150%;
+}
+#nav_bar{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+#nav_bar:hover{
+    color: blue;
+}
+.author_text{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 7vh;
+    background-color: white;
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+}
+.auther_image img{
+    height: 57.5vh;
+    
+}
+.quote_author{
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 120%;
+}
+.biography_text{
+    margin-left: 1vh;
+    font-size: 90%;
+
+}
+.socials_icons {
+    margin-left: 1vh;
+    margin-top: 1vh;
+}
+#facebook_icon{
+   
+}
+#insta_icon, #twitter_icon{
+    margin-left: 7vh;
+    color: black;
+}
+#insta_icon:hover, #twitter_icon:hover{
+    color: rgb(185, 37, 148);
+}
+#youtube_icon{
+    margin-left: 7vh;
+    color: red;
+}
+#youtube_icon:hover{
+    color: rgb(7, 6, 6);
+}
+.selling_book{
+    
+}
+.selling_book img{
+    height: 50vh;
+    margin-left: 5vw;
+}
+.advertise_book{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+.start_icons,i{
+    color: orange;
+    text-align: center;
+    margin-top: 3vh;
+}
+#amazon_icon{
+    color: rgb(7, 7, 105);
+}
+#amazon_icon:hover{
+    color: orangered;
+}
+.advertise_paragraph{
+    margin-left: 5vh;
+    margin-top: 10vh;
+}
+#advrt_words{
+    text-align: center;
+    font-size: 120%;
+}
+
+
+
+.group_books{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.maaza_book img{
+    height: 50vh;
+    margin-left: 5vw;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    
+}
+.maaza_book img:hover{
+    transform: scale(1.1);
+}
+.crime_book img{
+    height: 50vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+}
+.crime_book img{
+    transform: scale(1.1);
+}
+.crime_book img:hover{
+    transform: scale(1,1);
+}
+
+#group_heading{
+    text-align: center;
+    font-size: 130%;
+    margin-top: 15vh;
+}
+#maaza_book{
+    margin-left: 3vh;
+    text-decoration: none;
+    
+}
+#born_book{
+    margin-left: 5vh;
+    margin-top: 5vh;
+    
+}
+
+.right_reserved{
+    text-align: center;
+    margin-top: 5vh;
+}
+}
+
+@media only screen and (min-width:751px) and (max-width:999px) {
+    .book_review{
+        background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+         url(images/library\ books_image.jpg);
+        height: 99vh;
+        width: 99vw;
+        margin-top:vh;
+        /* position: fixed; */
+    
+        
+    
+    }
+    
+    .navigation_upwards{
+        border: solid 2px;
+        border: none;
+        border-radius: 3vw;
+        height: 6vh;
+        width: 99vw;
+        background-image: linear-gradient(rgba(52, 53, 70, 0.8), rgba(0, 0, 0, 0.8));
+       
+    }
+    
+    .navigation_bar, ul{
+        display: flex;
+       
+        gap: 8vw;
+        margin-top: 0.5vh;
+        margin-left: 0vw;
+        color: white;
+        font-size: 100%;
+        position: absolute;
+        list-style: none;
+       
+    }
+    #books_button{
+        width: 25vw;
+        height: 4vh;
+        background: none;
+        border: none;
+        color: white;
+        background-color:blue ;
+        font-size: 120%;
+        border-radius: 2vh;
+    
+    }
+    
+    #books_button:hover{
+        background-color: white;
+        color: black;
+        
+    }
+    #small_heading{
+        margin-left: 4vw;
+        margin-top: 8vh;
+        color: rgb(231, 223, 223);
+    }
+    .book_introtext {
+      position: absolute;
+      margin-top: -65vh;
+      text-align: center;
+      margin-left: 25vw;
+      font-size: 250%;
+      color: white;
+    }
+    .logo_text{
+        display: flex;
+    }
+    .logo_text img{
+        height: 2vh;
+    }
+    .book_quote{
+        margin-top: 6vh;
+        font-size: 95%;
+        margin-left: 3vw;
+    }
+    #reflection_heading{
+        margin-top: 12vh;
+        margin-left: 15vw;
+        font-size: 140%;
+        
+    }
+    #reflection_heading a{
+        color: white;
+    }
+    .book_reflection{
+        border: solid 3px;
+        height: 100vh;
+        width: 90vw;
+        margin: auto;
+        overflow: scroll;
+        background-color: white;
+        border: none;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+        
+    }
+    .new_title{
+        display: flex;
+        
+    }
+    .new_title_image img{
+        height: 35vh;
+        margin-top: 2vh;
+        margin-left: 10vw;
+    }
+    #sugested_title{
+        margin-top: 9vh;
+        margin-left: 7vw;
+        
+    }
+    .title_paragraph{
+        margin-top: 5vh;
+        margin-left: 1vh;
+        font-size: 90%;
+    }
+    .subvient_view{
+        display: flex;
+        margin-top: 5vh;
+    }
+    .traditional_marriageimage img{
+        height: 25vh;
+        margin-left: 5vw;
+    }
+    .reflective_blog{
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 90%;
+    }
+    .subvient_heading{
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+    .quote_paragrapgh{
+        margin-top: 5vh;
+        margin-left: 1vh;
+        font-size: 90%;
+    }
+    #author_trevor{
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 150%;
+    }
+    #nav_bar{
+        color: white;
+        text-decoration: none;
+        font-size: 120%;
+    }
+    #nav_bar:hover{
+        color: blue;
+    }
+    .author_text{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 7vh;
+        background-color: white;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    }
+    .auther_image img{
+        height: 57.5vh;
+       margin-left: 19vw;
+        
+    }
+    .quote_author{
+        text-align: center;
+        margin-top: 10vh;
+        font-size: 120%;
+    }
+    .biography_text{
+        margin-left: 1vh;
+        font-size: 90%;
+    
+    }
+    .socials_icons {
+        margin-left: 10vh;
+        margin-top: 1vh;
+    }
+    #facebook_icon{
+       
+    }
+    #insta_icon, #twitter_icon{
+        margin-left: 7vh;
+        color: black;
+    }
+    #insta_icon:hover, #twitter_icon:hover{
+        color: rgb(185, 37, 148);
+    }
+    #youtube_icon{
+        margin-left: 7vh;
+        color: red;
+    }
+    #youtube_icon:hover{
+        color: rgb(7, 6, 6);
+    }
+    .selling_book{
+        
+    }
+    .selling_book img{
+        height: 50vh;
+        margin-left: 5vw;
+    }
+    .advertise_book{
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 10vh;
+    }
+    .start_icons,i{
+        color: orange;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    #amazon_icon{
+        color: rgb(7, 7, 105);
+    }
+    #amazon_icon:hover{
+        color: orangered;
+    }
+    .advertise_paragraph{
+        margin-left: 5vh;
+        margin-top: 10vh;
+    }
+    #advrt_words{
+        text-align: center;
+        font-size: 120%;
+    }
+
+
+
+
+    .group_books{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .maaza_book img{
+        height: 40vh;
+        margin-left: 25vw;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+        
+    }
+    .maaza_book img:hover{
+        transform: scale(1.1);
+    }
+    .crime_book img{
+        height: 40vh;
+        margin-left: 25vw;
+        margin-top: 10vh;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    }
+    .crime_book img{
+        transform: scale(1.1);
+    }
+    .crime_book img:hover{
+        transform: scale(1,1);
+    }
+    
+    #group_heading{
+        text-align: center;
+        font-size: 130%;
+        margin-top: 15vh;
+    }
+    #maaza_book{
+        margin-left: 20vh;
+        text-decoration: none;
+        
+    }
+    #born_book{
+        margin-left: 25vh;
+        margin-top: 5vh;
+        
+    }
+    
+    .right_reserved{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1300px) {
+    .book_review{
+        background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+         url(images/library\ books_image.jpg);
+        height: 99vh;
+        width: 99vw;
+        margin-top:vh;
+        /* position: fixed; */
+    
+        
+    
+    }
+    
+    .navigation_upwards{
+        border: solid 2px;
+        border: none;
+        border-radius: 3vw;
+        height: 6vh;
+        width: 98vw;
+        background-image: linear-gradient(rgba(52, 53, 70, 0.8), rgba(0, 0, 0, 0.8));
+       
+    }
+    
+    .navigation_bar, ul{
+        display: flex;
+       
+        gap: 9vw;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        color: white;
+        font-size: 120%;
+        position: absolute;
+        list-style: none;
+       
+    }
+    #books_button{
+        width: 20vw;
+        height: 5vh;
+        background: none;
+        border: none;
+        color: white;
+        background-color:blue ;
+        font-size: 120%;
+        border-radius: 2vh;
+    
+    }
+    
+    #books_button:hover{
+        background-color: white;
+        color: black;
+        
+    }
+    #small_heading{
+        margin-left: 4vw;
+        margin-top: 6vh;
+        color: rgb(231, 223, 223);
+    }
+    .book_introtext {
+      position: absolute;
+      margin-top: -70vh;
+      text-align: center;
+      margin-left: 30vw;
+      font-size: 290%;
+      color: white;
+    }
+    .logo_text{
+        display: flex;
+    }
+    .logo_text img{
+        height: 2vh;
+    }
+    .book_quote{
+        margin-top: 6vh;
+        font-size: 150%;
+        margin-left: 3vw;
+    }
+    #reflection_heading{
+        margin-top: 12vh;
+        margin-left: 30vw;
+        font-size: 190%;
+        
+    }
+    #reflection_heading a{
+        color: white;
+    }
+    .book_reflection{
+        border: solid 3px;
+        height: 100vh;
+        width: 90vw;
+        margin: auto;
+        overflow: scroll;
+        background-color: white;
+        border: none;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+        
+    }
+    .new_title{
+        display: flex;
+        
+    }
+    .new_title_image img{
+        height: 35vh;
+        margin-top: 2vh;
+        margin-left: 10vw;
+    }
+    #sugested_title{
+        margin-top: 9vh;
+        margin-left: 7vw;
+        
+    }
+    .title_paragraph{
+        margin-top: 5vh;
+        margin-left: 3vh;
+        font-size: 110%;
+    }
+    .subvient_view{
+        display: flex;
+        margin-top: 5vh;
+    }
+    .traditional_marriageimage img{
+        height: 25vh;
+        margin-left: 5vw;
+    }
+    .reflective_blog{
+        margin-top: 5vh;
+        text-align: center;
+        font-size: 140%;
+    }
+    .subvient_heading{
+        margin-left: 2vw;
+        margin-top: 1vw;
+    }
+    .quote_paragrapgh{
+        margin-top: 5vh;
+        margin-left: 2vh;
+        font-size: 110%;
+    }
+    #author_trevor{
+        text-align: center;
+        margin-top: 20vh;
+        font-size: 150%;
+    }
+    #nav_bar{
+        color: white;
+        text-decoration: none;
+        font-size: 120%;
+    }
+    #nav_bar:hover{
+        color: blue;
+    }
+    .author_text{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: 7vh;
+        background-color: white;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    }
+    .auther_image img{
+        height: 57.5vh;
+       margin-left: 19vw;
+        
+    }
+    .quote_author{
+        text-align: center;
+        margin-top: 10vh;
+        font-size: 150%;
+    }
+    .biography_text{
+        margin-left: 1vh;
+        font-size: 120%;
+    
+    }
+    .socials_icons {
+        margin-left: 10vh;
+        margin-top: 1vh;
+    }
+    #facebook_icon{
+       
+    }
+    #insta_icon, #twitter_icon{
+        margin-left: 7vh;
+        color: black;
+    }
+    #insta_icon:hover, #twitter_icon:hover{
+        color: rgb(185, 37, 148);
+    }
+    #youtube_icon{
+        margin-left: 7vh;
+        color: red;
+    }
+    #youtube_icon:hover{
+        color: rgb(7, 6, 6);
+    }
+   
+    .selling_book img{
+        height: 50vh;
+        margin-left: 5vw;
+    }
+    .advertise_book{
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 10vh;
+    }
+    .start_icons,i{
+        color: orange;
+        text-align: center;
+        margin-top: 3vh;
+    }
+    #amazon_icon{
+        color: rgb(7, 7, 105);
+    }
+    #amazon_icon:hover{
+        color: orangered;
+    }
+    .advertise_paragraph{
+        margin-left: 5vh;
+        margin-top: 10vh;
+    }
+    #advrt_words{
+        text-align: center;
+        font-size: 120%;
+    }
+
+
+
+
+
+    .group_books{
+        display: flex;
+        /* flex-direction: column; */
+        margin-top: 5vh;
+    }
+    .maaza_book img{
+        height: 40vh;
+        margin-left: 1vw;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+        
+    }
+    .maaza_book img:hover{
+        transform: scale(1.1);
+    }
+    .crime_book img{
+        height: 40vh;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        transition: transform 0.3s ease-in-out;
+        box-shadow: 0 6px 35px rgba(0, 0, 0, 0.81);
+    }
+    .crime_book img{
+        transform: scale(1.1);
+    }
+    .crime_book img:hover{
+        transform: scale(1,1);
+    }
+    
+    #group_heading{
+        text-align: center;
+        font-size: 130%;
+        margin-top: 15vh;
+    }
+    #maaza_book{
+        margin-left: 2vh;
+        text-decoration: none;
+        
+    }
+    #born_book{
+        margin-left: 10vh;
+        margin-top: 5vh;
+        
+    }
+    
+    .right_reserved{
+        text-align: center;
+        margin-top: 10vh;
+    }
 }
