@@ -265,6 +265,9 @@ transform: scale(1.1);
 spam{
     color: black;
 }
+.beneath_sale_image img{
+    height: 90vh;
+}
 
 
 @media only screen and (max-width:750px) {

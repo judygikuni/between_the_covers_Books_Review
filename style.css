@@ -285,6 +285,22 @@ body{
     margin-top: 1vh;
 }
 
+#buy_nowpage{
+    width: 9vw;
+    height: 5vh;
+    font-size: 100%;
+    background-color:  rgb(7, 7, 105); 
+    border: none;
+    
+}
+#amazon_buy{
+    text-decoration: none;
+    color: white;
+}
+#amazon_buy:hover{
+    color: chocolate;
+}
+
 
 @media only screen and (max-width:750px) {
     .book_review{
